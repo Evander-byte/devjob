@@ -7,6 +7,7 @@
             <div class="felx flex-col break-words bg-white border border-2 shadow-md mt-20">
                 <div class="bg-gray-300 text-greay-700 uppercase text-center py-3 px-6 mb-0">
                     {{ __('Login')}}
+                </div>
                     <form class="py-10 px-5" method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -54,7 +55,6 @@
                             @endif
                         </div>
                     </form>
-                </div>
             </div>
         </div>
     </div>
